@@ -87,7 +87,7 @@ public class AlarmModule extends UZModule {
 			AlarmReceiver.uzContext = moduleContext;
 			stopAlarm();
 		}
-		Toast.makeText(mContext, moduString, Toast.LENGTH_SHORT).show();
+		//Toast.makeText(mContext, moduString, Toast.LENGTH_SHORT).show();
 	}
 
 	/**
