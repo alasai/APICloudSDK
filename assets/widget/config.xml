@@ -1,7 +1,7 @@
 <widget id="A0000000000001"  version="0.0.1">
     <name>ModuleDemo</name>
     <description>A sample of APICloud module extension.</description>
-    <author email="developer@apicloud.com" href="http://www.apicloud.com">
+    <author email="277421352@qq.com" href="http://www.apicloud.com">
         developer
     </author>
     <content src="index.html" />

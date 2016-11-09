@@ -5,7 +5,6 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.SystemClock;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.uzmap.pkg.uzcore.UZWebView;
 import com.uzmap.pkg.uzcore.annotation.UzJavascriptMethod;
@@ -32,6 +31,7 @@ public class AlarmModule extends UZModule {
 	 * 
 	 * @param moduleContext
 	 */
+	@SuppressWarnings("static-access")
 	@UzJavascriptMethod
 	public void jsmethod_start(UZModuleContext moduleContext) {
 		AlarmReceiver.uzContext = moduleContext;
@@ -75,7 +75,7 @@ public class AlarmModule extends UZModule {
 	}
 
 	/**
-	 * 获取gps数据
+	 * 检测数据-暂时没用
 	 * 
 	 * @param moduleContext
 	 */
